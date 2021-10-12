@@ -34,3 +34,4 @@ jobs:
           heroku_email: "quinalayojason@gmail.com"
           healthcheck: "https://intense-basin-22042.herokuapp.com/health"
           checkstring: "ok"
+          rollbackonhealthcheckfailed: true
